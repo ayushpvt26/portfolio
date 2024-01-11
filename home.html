@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#" onclick="scrollToTarget('target0')">Home</a></li>
+        <li><a href="#" onclick="scrollToTarget('target1')">About</a></li>
+        <li><a href="#" onclick="scrollToTarget('target2')">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<div class="container">
+  <div class="square" id="target0"><br><br><br><br><br><br><br><br><br><br>
+   <center>
+    <img src="images/istockphoto-1022282590-612x612.jpg" alt=" not found" height="150">
+  <br><br>
+    <h1 class="name">AYUSH YADAV</h1>
+  <p style="color:#a09f9c; font-size: 20px;"> Software Engineer/Backend Developer</p>
+  </center>
+  </div>
+
+  <div class="sq1">
+     <ul><br><br>
+     <li><a href="https://www.linkedin.com/in/ayushyadav26/"><img src="images/702300.png" alt="not found" height="45px"></a></li>
+     <li><a href="https://github.com/ayushpvt26/"><img src="images/newgit.png" alt="not found" height="45px"></a></li>
+     <li><a href="mailto:ayush.pvt26email.com"><img src="images/google-mail-icons-free-png.webp" alt="not found" height="45px"></a></li>
+  </ul >  
+  </div><br><br>
+
+  <div class="profile-container"  id="target1">
+  
+    <div class="profile-main">
+      <img class="profile-image" src="images/about-img.62b47e7f183d4b4e9feb.webp" alt="Profile Image" height="200px">
+      <div class="profile-details">
+        <br><br>   <h1>About</h1>
+        <h5>Dedicated Backend Developer</h5>
+        <p>Indore, India 📍</p>
+        <p>Currently employed at HotWax Commerce as a Software Engineer, collaborating with the Frontend team to develop and enhance the Shopify OMS product suite. My expertise lies in JavaScript and web development, and I am fueled by a constant passion for creating innovative solutions.</p>
+        <p>Outside of coding, I indulge in a love for movies and animes, as well as capturing self-portraits.</p>
+      <h5>Education</h1>
+      <p>Integrated masters of Computer Application</p>
+      
+      </div>
+    </div>
+  </div>
+
+
+ 
+
+
+
+
+
+<div class="sq3" id="target2">
+  
+
+<div class="contact-container">
+  <h1>Contact</h1>
+  <h3>Don't be shy! Hit me up! 👇</h3>
+<br><br>
+  <div class="contact-info">
+      <div class="location">
+        <center> <img src="images/MAP.png" alt="Location Icon">
+      
+      <h4>Indore,India</>   </center> 
+          
+      </div>
+
+      <div class="email">
+        <center> <h4> <a href="mailto:ayush.pvt26email.com"></a> <img src="images/EMAIL WEBSITE.png" alt="Email Icon"></a>
+        <p>ayush.pvt26@gmail.com</p>
+       </center>
+      </div>
+  </div>
+</div>
+
+  
+</div>
+<footer>
+  <a href="#"></a>
+ 
+  <a href="#">Copyright © 2024. All rights are reserved</a>
+</footer>
+<script>
+  function scrollToTarget(targetId) {
+    var targetDiv = document.getElementById(targetId);
+    
+    if (targetDiv) {
+      var offset = targetDiv.getBoundingClientRect().top + window.scrollY;
+      
+      window.scroll({
+        top: offset,
+        behavior: 'smooth'
+      });
+    }
+  }
+</script>
+
+</body>
+</html>
