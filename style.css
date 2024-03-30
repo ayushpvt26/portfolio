@@ -1,8 +1,7 @@
 body {
     margin: 0; 
     font-family: poppins,sans-serif;
-   /* Set the width to 67% */
-  
+
       background: linear-gradient(rgb(32, 2, 34),#040016,black, rgb(0, 0, 0),rgb(11, 1, 1), black);
   }
  
